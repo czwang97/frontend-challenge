@@ -1,0 +1,182 @@
+body {
+  background-color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;;
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 1.250em;
+  font-weight: 500;
+  line-height: 1.414em;
+  letter-spacing: 0.038em;
+  color: #525252;
+}
+
+h2 {
+  font-size: 1.250em;
+  font-weight: 500;
+  line-height: 1.414em;
+  letter-spacing: 0.038em;
+  color: #000000;
+}
+
+h3 {
+  font-size: 1.313em;
+  font-weight: 600;
+  line-height: 1.414em;
+  letter-spacing: 0.059em;
+  color: #000000;
+}
+
+h4 {
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 1.414em;
+  letter-spacing: 0.045em;
+  color: #2F2F2F;
+}
+
+h5 {
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: 1.414em;
+  letter-spacing: 0.045em;
+  color: #545454;
+}
+
+h6 {
+  font-size: 1em;
+  line-height: 1.414em;
+  letter-spacing: 0.045em;
+  color: #545454;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 375px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.status-bar{
+  margin: 0 auto;
+  width: 375px;
+  height: 20px;
+  background-image: url('../images/status-bar.png');
+  background-size: cover;
+}
+
+.map{
+  margin: 0 auto;
+  width: 375px;
+  height: 225px;
+  background-image: url('../images/map.png');
+  background-size: cover;
+}
+
+.toolbar {
+  margin: 0 auto;
+  width: 375px;
+  background-color: #FAFAFA;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.button-top {
+  text-align: center;
+  width: 123px;
+  display: inline-block;
+  padding: 15px 0px 12px 0px;
+}
+
+.active {
+  margin: 0 auto;
+  width: 125px;
+  position: center;
+  height: 3px;
+  background-color: #FF7A00;
+}
+
+.button-bottom{
+  text-align: center;
+  width: 123px;
+  display: inline-block;
+  background-color: #F8F8F8;
+  padding: 15px 0px 12px 0px;
+}
+
+.button-bottom-active{
+  text-align: center;
+  width: 123px;
+  display: inline-block;
+  background-color: #F0F0F0;
+  padding: 15px 0px 12px 0px;
+}
+
+.box {
+  overflow: auto;
+  margin: 0 auto;
+  width: 375px;
+  height: 325px;
+}
+
+.header{
+  margin: 0 auto;
+  width: 375px;
+  background-color: #E9E9E9;
+  padding-top: 15px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+  background-color: #F8F8F8;
+}
+
+.content-block {
+  padding-top: 15px;
+}
+
+.direction {
+  padding-bottom: 15px;
+  padding-left: 20px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.line {
+  background-color: #FFF;
+  border-bottom: 1px solid #EEEEEE;
+  padding: 15px;
+  padding-left: 25px;
+}
+
+.content {
+  display: inline-block;
+  width: auto;
+}
+
+.timeblock {
+  background-color: #dbd9db;
+  padding: 0px 20px 0px 20px;
+}
+
+.time {
+  float: right;
+  padding-top: 8px;
+  text-align: right;
+}
+
+.NAblock {
+  background-color: #dbd9db;
+  padding: 0px 20px 0px 20px;
+}
+
+.NA {
+  float: right;
+  padding-top: 6px;
+  text-align: right;
+}
