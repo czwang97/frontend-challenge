@@ -101,7 +101,15 @@ nav {
   background-color: #FF7A00;
 }
 
-.button-bottom{
+.footer {
+  margin: 0 auto;
+  width: 375px;
+  background-color: #FAFAFA;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.footer-tab{
   text-align: center;
   width: 123px;
   display: inline-block;
@@ -109,7 +117,7 @@ nav {
   padding: 15px 0px 12px 0px;
 }
 
-.button-bottom-active{
+.footer-tab-active{
   text-align: center;
   width: 123px;
   display: inline-block;
@@ -159,7 +167,7 @@ nav {
   width: auto;
 }
 
-.timeblock {
+.time-block {
   background-color: #dbd9db;
   padding: 0px 20px 0px 20px;
 }
